@@ -1,0 +1,35 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#comments {
+    width: 350px;    
+}
+
+#comments-list-container ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.avatar-img {
+    padding-right: 7px;
+    border-radius: 5px;
+}
+
+#filter-tb {
+    padding: 6px 15px 6px 30px;
+	background: url('../img/filter.png') no-repeat 5px 5px; 
+}
+
+.form-control {
+    border-radius: 0px;
+}
